@@ -4,11 +4,14 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 .container_styles{
-    height: 100vh;
     box-shadow: 1px 10px 10px 10px #b4b3b3;
+    line-height: 40px;
 }
 
-
+.icon_border_line{
+    border-left: thin solid #803480;
+    padding-left: 10px
+}
 .border_bottom{
     border-bottom: thin solid #803480;
 }
@@ -17,14 +20,17 @@
 }
 .font_size_info{
     font-size: 15px;
+    font-weight: bold;
+}
+.padding_top_10{
+    padding-top: 10px;
 }
 .padding_20{
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .my_image{
-    height: 200px;
-    width: 150px;
-    border-radius: 50%;
+    height: 190px;
 }
 
 
